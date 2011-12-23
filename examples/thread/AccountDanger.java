@@ -1,4 +1,4 @@
-﻿package examples.thread;
+package examples.thread;
 
 public class AccountDanger implements Runnable{
 

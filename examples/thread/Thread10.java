@@ -1,4 +1,4 @@
-﻿package examples.thread;
+package examples.thread;
 
 public class Thread10 extends Thread{
 
@@ -14,7 +14,7 @@ public class Thread10 extends Thread{
 			}			
 		}
 		
-		System.out.println("DONE!");
+		System.out.println("DONE!!!!");
 	}
 	
 	public static void main(String[] args){

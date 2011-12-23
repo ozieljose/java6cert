@@ -1,4 +1,4 @@
-﻿package examples.thread;
+package examples.thread;
 
 class NameRunnabele implements Runnable{
 
