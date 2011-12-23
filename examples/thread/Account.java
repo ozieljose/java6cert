@@ -1,4 +1,4 @@
-package example.thread;
+package examples.thread;
 
 public class Account{
 	

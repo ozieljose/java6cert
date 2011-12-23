@@ -9,14 +9,14 @@ public class AccountSynced implements Runnable{
 			print(curThread().getName()+" is going to withdrawn");
 			
 			try{
-				Thread.sleep(500);
+				Thread.sleep(1000);
 			}catch(InterruptedException e){}
 			
 			account.withdrawn(amount);
 			
 			print(curThread().getName() + " completed the withdrawnal");
 		}else{
-			print("No funds! bal:"+account.getBalance());
+			print("No funds! bal:"+account.getBalance()+" for "+curThread().getName());
 		}
 	}
 	
@@ -47,12 +47,12 @@ public class AccountSynced implements Runnable{
 		
 		//one.start();
 		
-		try{
+		/*try{
 			one.join();
 			two.join();
 		}catch(InterruptedException e){}
 		
-		print("DONE");
+		print("DONE");*/
 	}
 	
 	static Thread curThread(){

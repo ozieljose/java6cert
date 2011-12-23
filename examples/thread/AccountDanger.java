@@ -16,7 +16,7 @@ public class AccountDanger implements Runnable{
 			
 			print(curThread().getName() + " completed the withdrawnal");
 		}else{
-			print("No funds! bal:"+account.getBalance());
+			print("No funds! bal:"+account.getBalance()+" for "+curThread().getName());
 		}
 	}
 	
