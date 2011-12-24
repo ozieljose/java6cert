@@ -47,12 +47,12 @@ public class AccountDanger implements Runnable{
 		
 		//one.start();
 		
-		try{
+		/*try{
 			one.join();
 			two.join();
 		}catch(InterruptedException e){}
 		
-		print("DONE");
+		print("DONE");*/
 	}
 	
 	static Thread curThread(){
