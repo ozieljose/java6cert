@@ -7,9 +7,9 @@ public class AccountSynced implements Runnable{
 	private synchronized void makeWithdrawnal(int amount){
 		if(account.getBalance() >= amount){
 			print(curThread().getName()+" is going to withdrawn");
-			
-			try{
-				Thread.sleep(1000);
+						
+			try{			
+				Thread.sleep(500);			
 			}catch(InterruptedException e){}
 			
 			account.withdrawn(amount);
